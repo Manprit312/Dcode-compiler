@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header{    display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-color: #28557c;
+color: white;
+padding: 10px;}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+textarea{background: radial-gradient(circle at 5.6% 54.5%, rgb(47, 71, 79) 0%, rgb(159, 188, 198) 83.6%);}
+.submitbut{  
+  padding: 10px 20px;
+  font-size: 16px;
+
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background: linear-gradient(135deg, rgba(37,219,237,0.8) 0%,rgba(183,60,210,0.8) 100%);}
+.code-submission-container {
+height: 96vh;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.code-submission-container{background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);;}
+.input-container {
+  display: flex;
+  justify-content: flex-end;
+}
+option{padding: 10px;}
+.input-container label {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.red{background-color: #0056b3}
+textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  height: 570px;
+  
+}
+
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(241, 211, 37);
+}
+
+.result-container p {
+  margin: 5px 0;
+}
